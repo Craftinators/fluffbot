@@ -1,0 +1,19 @@
+{
+  "name": "fluffbot",
+  "version": "1.0.0",
+  "description": "Official API for Fluffbot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node dist/index.js"
+  },
+  "author": "Craftinators",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "dotenv": "^16.0.3",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  }
+}
